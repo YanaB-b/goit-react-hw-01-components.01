@@ -1,0 +1,41 @@
+.statistics {
+    padding: 50px;
+    background-color: rgba(133, 131, 131, 0.247);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+      transition: transform 250ms ubic-bezier(0.4, 0, 0.2, 1);
+      width: max-content;
+      margin-bottom: 40px;
+  
+  }
+  
+  .wraper {
+    background-color: #fff;
+  }
+  
+  .title {
+    display: inline-block;
+    padding: 25px;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: #fff;
+   width: 200px;
+  } 
+  
+  .statList {
+    display: flex;
+    /* gap: 20px; */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .statisticsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
